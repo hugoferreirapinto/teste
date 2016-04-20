@@ -21,7 +21,7 @@
     <plugin name="org.apache.cordova.dialogs" />
     <plugin name="org.apache.cordova.vibration" />
     <plugin name="org.apache.cordova.network-information" />
-    <plugin name="com.simplec.plugins.localnotification" />
+    <plugin name="com.simplec.plugins.localnotification" source="pgb" />
 
 	<icon src="icon.png" />
 
