@@ -23,8 +23,8 @@
 	
     <preference name="orientation" value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
 	
-	<preference name="LoadingDialog" value="My Title,My Message"/>
-	<preference name="SplashScreenDelay" value="5000"/>
+	<preference name="LoadingDialog" value="BabySitter,A Carregar..."/>
+	<preference name="SplashScreenDelay" value="6000"/>
 	
     <plugin name="org.apache.cordova.device" />
     <plugin name="org.apache.cordova.camera" />
