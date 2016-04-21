@@ -23,6 +23,9 @@
 	
     <preference name="orientation" value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
 	
+	<preference name="LoadingDialog" value="My Title,My Message"/>
+	<preference name="SplashScreenDelay" value="5000"/>
+	
     <plugin name="org.apache.cordova.device" />
     <plugin name="org.apache.cordova.camera" />
     <plugin name="org.apache.cordova.media-capture" />
@@ -40,21 +43,21 @@
 	
 	<icon src="icon.png" />
 
-    <icon src="res/icons/android/drawable-ldpi/Icon.png" platform="android" density="ldpi" />
-    <icon src="res/icons/android/drawable-mdpi/Icon.png" platform="android" density="mdpi" />
-    <icon src="res/icons/android/drawable-hdpi/Icon.png" platform="android" density="hdpi" />
-    <icon src="res/icons/android/drawable-xdpi/Icon.png" platform="android" density="xhdpi" />
-    <icon src="res/icons/android/drawable-xxdpi/Icon.png" platform="android" density="xxhdpi" />
-    <icon src="res/icons/android/drawable-xxxdpi/Icon.png" platform="android" density="xxxhdpi" />
+    <icon src="res/icons/android/drawable-ldpi/Icon.png" platform="android" qualifier="ldpi" />
+    <icon src="res/icons/android/drawable-mdpi/Icon.png" platform="android" qualifier="mdpi" />
+    <icon src="res/icons/android/drawable-hdpi/Icon.png" platform="android" qualifier="hdpi" />
+    <icon src="res/icons/android/drawable-xdpi/Icon.png" platform="android" qualifier="xhdpi" />
+    <icon src="res/icons/android/drawable-xxdpi/Icon.png" platform="android" qualifier="xxhdpi" />
+    <icon src="res/icons/android/drawable-xxxdpi/Icon.png" platform="android" qualifier="xxxhdpi" />
 	
     <splash src="splash.png" />
     
-    <splash src="res/screen/android/drawable-ldpi/splash.png"  platform="android" density="ldpi" />
-    <splash src="res/screen/android/drawable-mdpi/splash.png"  platform="android" density="mdpi" />
-    <splash src="res/screen/android/drawable-hdpi/splash.png"  platform="android" density="hdpi" />
-    <splash src="res/screen/android/drawable-xdpi/splash.png" platform="android" density="xhdpi" />
-    <splash src="res/screen/android/drawable-xxdpi/splash.png" platform="android" density="xxhdpi" />
-    <splash src="res/screen/android/drawable-xxxdpi/splash.png" platform="android" density="xxxhdpi" />
+    <splash src="res/screen/android/drawable-ldpi/splash.png"  platform="android" qualifier="ldpi" />
+    <splash src="res/screen/android/drawable-mdpi/splash.png"  platform="android" qualifier="mdpi" />
+    <splash src="res/screen/android/drawable-hdpi/splash.png"  platform="android" qualifier="hdpi" />
+    <splash src="res/screen/android/drawable-xdpi/splash.png" platform="android" qualifier="xhdpi" />
+    <splash src="res/screen/android/drawable-xxdpi/splash.png" platform="android" qualifier="xxhdpi" />
+    <splash src="res/screen/android/drawable-xxxdpi/splash.png" platform="android" qualifier="xxxhdpi" />
 	
     <content src="http://babysitter.zeta.pt" />
     <access origin="*" subdomains="true" />
