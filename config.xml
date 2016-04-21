@@ -1,15 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="pt.zeta.babysitter.app" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    
-    <name>BabySitter</name>
-    <description>Comparação de BabySitter</description>
-    <author email="hugoferreirapinto@gmail.com" href="http://pastinhaprofissional.pt">Externato Vila Meã</author>
 
-    <preference name="phonegap-version" value="cli-5.2.0" />
-    
-    <preference name="orientation" value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "pt.zeta.babysitter"
+        versionCode = "1" 
+        version     = "1.0.2" >
+
+    <name>BabySitter</name>
+
+    <description>
+        Aplicação para comparação e avaliação de BabySitters.
+    </description>
+
+    <author href="http://pastinhaprofissional.pt" email="hugoferreirapinto@gmail.com">
+        Externato Vila Meã
+    </author>
 	
-    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+	<platform name="android" />
+	
+    <preference name="phonegap-version" value="cli-5.2.0" />
+    <feature name="http://api.phonegap.com/1.0/device" />
+	
+    <preference name="orientation" value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
 	
     <plugin name="org.apache.cordova.device" />
     <plugin name="org.apache.cordova.camera" />
